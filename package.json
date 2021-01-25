@@ -1,0 +1,22 @@
+{
+  "name": "exercise-spa",
+  "version": "1.0.0",
+  "description": "single page app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "css",
+    "html"
+  ],
+  "author": "edgarhovhannisyan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

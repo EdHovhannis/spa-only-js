@@ -1,0 +1,124 @@
+.navBar {
+    display: flex;
+    background-color: #555555;
+    align-items: center;
+    height: 80px;
+    border-radius: 5px;
+    width: 95%;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  .link {
+    color: #dfdfdf;
+    text-decoration: none;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 600;
+    font-size: 16pt;
+  }
+  .logo {
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 2rem;
+    box-sizing: border-box;
+  }
+  
+  .logo a {
+    display: block;
+    height: 100%;
+    line-height: 80px;
+    font-size: 20pt;
+    padding: 0 1rem 0 1rem;
+    box-sizing: border-box;
+  }
+  
+  .routes {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    box-sizing: border-box;
+    margin-right: 2rem;
+  }
+  .routes a {
+    display: block;
+    height: 100%;
+    line-height: 80px;
+    box-sizing: border-box;
+    padding: 0 2rem 0 2rem;
+  }
+  
+  .logo a:hover,
+  .routes a:hover {
+    cursor: pointer;  
+    background-color: #5c5c5c;
+    
+  }
+  .active { 
+    background-color: #5c5c5c;
+    color: #ffffff;
+  }
+  
+  .page {
+    width: 95%;
+    margin: auto;
+    margin-top: 3rem;
+    border: 1px solid #9c9c9c;
+    background-color: #eeecec;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    padding: 2rem;
+  }
+  
+  
+  .tableList {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 2rem;
+  }
+  
+  .tableList td, .tableList th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .tableList tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .amount {
+    width: 95%;
+    margin: auto;
+    margin-top: 1rem;
+    padding-left: 1rem;
+  }
+  
+  .btn {
+    width: 95%;
+    margin: auto;
+    text-align: right;
+    padding-right: 1rem;
+  }
+  .back {
+    border: none;
+    outline: none;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    background-color: #808080;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-size: 14pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+  }
+  .back:hover {
+    transition: all 0.3s;
+    background-color: #555555;
+    color: #ffffff;
+  }
+  .list li {
+    margin-top: 0.5rem;
+  }
